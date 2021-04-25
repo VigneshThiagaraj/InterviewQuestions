@@ -1,0 +1,25 @@
+Problem:
+
+1. Find the differnce between two dates without using inbuilt functions.
+2. Input is of type String and date format is dd-mm-yyyy.
+3. start and end date is inclusive.
+
+Input: 
+startDate: 06-02-2021
+endDate: 12-03-2022
+
+Output: 403 days
+
+Solution:
+
+1. if start year == end year
+	1. if start year < end year, no of days can be calculated with the days between start month and end month.
+	2. if start year < end year, no of days can be calculated with the difference between start month and end month.
+
+2. else if start year < end year
+	1. if start month > end month, one year is not completed. 
+	2. No of days left between start month to dec month of the same year and No of days left between Jan month to end month of the next year is calculated.
+	2. if start year - end year > 1, no of days between the years is calculated
+		1. run a loop of year from startyear + 1 to less than end year
+		2. if year is leap year, 366 days is added else 365 days is added.
+	3. Finally no of days left in Start year, no of days between the years and no of days left in end year is added together to get the final year.

@@ -1,3 +1,4 @@
+package com.datedifferences;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Arrays;
@@ -36,9 +37,9 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the start date");
+		System.out.println("Enter the start date in dd-mm-yyyy format");
 		String startDate = br.readLine();
-		System.out.println("Enter the end date");
+		System.out.println("Enter the end date in dd-mm-yyyy format");
 		String endDate = br.readLine();
 
 		int startYear = Integer.parseInt(startDate.split("-")[2]);
