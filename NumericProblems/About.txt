@@ -1,0 +1,67 @@
+Numeric Problems:
+
+ClassName: AddDecDigits
+Problem: 
+Given a number, increment the odd digits of the number & decrement the even digits of the number. Consider number ranges only from 0-9. So to decrement 0 use 9 & to increment 9 use 0. Consider the 0th digit as even.
+
+Example:
+Input: 37290
+<<Index:[01234]>>
+Output: 28109 
+
+ClassName: CheckNumber
+Problem:
+Check whether a given number is kaprekar number or not?
+
+Kaprekar number:
+Number whose square when divided into two parts and such that sum of parts is equal to the original number and none of the parts has value 0.
+
+Example:
+Input: 45
+Output: true
+
+Explanation:
+Square of given number (45 * 45 = 2025)
+dividing square into two parts (20, 25)
+check sum of divided value is equal to given number i.e (20 + 25 = 45)
+
+Problem:
+Check whether a given number is Armstrong number or not?
+
+Armstrong number:
+Armstrong number is a number that is equal to the sum of cubes of its digits
+
+Example:
+Input: 153
+Output: true
+
+Explanation:
+cube of 1 + cube of 5 + cube of 3 = 153 
+check sum of sum of cubes is equal to given number i.e (cube of 1 (1) + cube of 5(125) + cube of 3(27)
+
+Prime number:
+A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers i.e a number divisible by 1 & itself only.
+
+Example:
+Input: 55
+Output: false
+
+Explanation:
+55 is divisible by 5, 11 
+
+Input: 11
+Output: true
+
+Explanation:
+11 is divisible by 1, 11 only
+
+Largest Prime factor:
+Find the largest prime factor of a number
+
+Example:
+Input: 120
+Output: 5
+
+Explanation:
+Factors of 120 is: 2,3,4,5,6,8,10,12,15 etc
+Among the factors 5 is the greatest prime number

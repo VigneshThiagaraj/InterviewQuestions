@@ -1,0 +1,27 @@
+Counter sequence
+
+1. 1
+2. 11
+3. 21
+4. 1211
+
+Problem:
+
+Find the occurence of char in a index
+input 3 
+output 21
+
+input 4
+output 1211
+
+input 5
+output 111221
+
+Solution:
+
+1. loop from 1 to input value
+2. start initial seq as 1 for i = 1
+3. find the chart at index i, count till the char at index i = char at index 1.
+4. print the count value + the char at index i
+
+		 
