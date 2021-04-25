@@ -35,15 +35,12 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		System.out.println("Enter the start date");
-//		String startDate = br.readLine();
-//		System.out.println("Enter the end date");
-//		String endDate = br.readLine();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter the start date");
+		String startDate = br.readLine();
+		System.out.println("Enter the end date");
+		String endDate = br.readLine();
 
-		String startDate = "05-02-2020";
-		String endDate = "08-04-2023";
-		
 		int startYear = Integer.parseInt(startDate.split("-")[2]);
 		int startMonth = Integer.parseInt(startDate.split("-")[1]);
 		int startDay = Integer.parseInt(startDate.split("-")[0]);
